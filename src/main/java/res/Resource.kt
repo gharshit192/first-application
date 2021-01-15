@@ -12,12 +12,5 @@ class Resource {
        return Response.ok("Welcome").build()
     }
 
-//    @POST
-//    @Consumes(MediaType.APPLICATION_JSON)
-//    @Produces(MediaType.APPLICATION_JSON)
-//    fun sayHello(request:String): Response{
-//        map POJO
-//        return Response.ok(name, MediaType.APPLICATION_JSON_TYPE).build()
-//    }
 }
 
